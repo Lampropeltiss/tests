@@ -1,9 +1,8 @@
 import CreditCardWidget from "./cardWidget/cardWidget";
 import AuthorWidget from "./authorWidget";
 
-
-const container1 = document.querySelector('.container1');
-const container2 = document.querySelector('.container2');
+const container1 = document.querySelector(".container1");
+const container2 = document.querySelector(".container2");
 
 const authorWidget = new AuthorWidget(container1);
 authorWidget.insertWidget();

@@ -13,7 +13,7 @@ module.exports = merge(common, {
     historyApiFallback: true,
     open: {
       app: {
-        name: 'chromium', // или 'chromium'
+        name: "chromium", // или 'chromium'
       },
     },
     compress: true,
