@@ -1,0 +1,55 @@
+.credit-card-widget {
+    padding: 20px;
+    margin-top: 20px;
+    max-width: 500px;
+
+    border: antiquewhite solid;
+    border-radius: 15px;
+}
+
+.card-ico {
+    width: 70px;
+}
+
+.card-off {
+    filter: brightness(50%);
+}
+
+.widget-input-line {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+input {
+    width: 210px;
+    border-radius: 5px;
+
+    font-family: Century, "Times New Roman", Times, serif;
+}
+
+button {
+    border-radius: 5px;
+    background-color: wheat;
+    color: black;
+
+    font-family: Century, "Times New Roman", Times, serif;
+}
+
+button:hover {
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: wheat;
+    cursor: pointer;
+}
+
+.valid-result {
+    width: 25px;
+}
+
+.inv {
+    display: none;
+}
